@@ -1,0 +1,90 @@
+﻿빌드 시작: 2015-08-11 오후 2:26:45
+     1>2 노드의 "D:\Dev\ENGINE\2D\SHEEP ENGINE\SHEEP ENGINE\SHEEP ENGINE.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Director.cpp Game.cpp HelloWorld.cpp Node.cpp Scene.cpp SceneRender.cpp Sprite.cpp main.cpp
+         Director.cpp
+     1>d:\dev\engine\2d\sheep engine\sheep engine\node.h(45): warning C4244: '=': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>d:\dev\engine\2d\sheep engine\sheep engine\node.h(47): warning C4244: '=': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>d:\dev\engine\2d\sheep engine\sheep engine\node.h(51): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>d:\dev\engine\2d\sheep engine\sheep engine\node.h(69): warning C4244: 'return': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>d:\dev\engine\2d\sheep engine\sheep engine\node.h(70): warning C4244: 'return': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+         코드를 생성하고 있습니다...
+         컴파일하고 있습니다...
+         main.cpp
+     1>d:\dev\engine\2d\sheep engine\sheep engine\node.h(45): warning C4244: '=': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>d:\dev\engine\2d\sheep engine\sheep engine\node.h(47): warning C4244: '=': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>d:\dev\engine\2d\sheep engine\sheep engine\node.h(51): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>d:\dev\engine\2d\sheep engine\sheep engine\node.h(69): warning C4244: 'return': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>d:\dev\engine\2d\sheep engine\sheep engine\node.h(70): warning C4244: 'return': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+         Sprite.cpp
+     1>d:\dev\engine\2d\sheep engine\sheep engine\node.h(45): warning C4244: '=': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>d:\dev\engine\2d\sheep engine\sheep engine\node.h(47): warning C4244: '=': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>d:\dev\engine\2d\sheep engine\sheep engine\node.h(51): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>d:\dev\engine\2d\sheep engine\sheep engine\node.h(69): warning C4244: 'return': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>d:\dev\engine\2d\sheep engine\sheep engine\node.h(70): warning C4244: 'return': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>d:\dev\engine\2d\sheep engine\sheep engine\sprite.cpp(20): error C2248: 'Node::m_ninfo': private 멤버('Node' 클래스에서 선언)에 액세스할 수 없습니다.
+         d:\dev\engine\2d\sheep engine\sheep engine\node.h(26): note: 'Node::m_ninfo' 선언을 참조하십시오.
+         d:\dev\engine\2d\sheep engine\sheep engine\node.h(18): note: 'Node' 선언을 참조하십시오.
+     1>d:\dev\engine\2d\sheep engine\sheep engine\sprite.cpp(22): error C2248: 'Node::m_npTexture': private 멤버('Node' 클래스에서 선언)에 액세스할 수 없습니다.
+         d:\dev\engine\2d\sheep engine\sheep engine\node.h(24): note: 'Node::m_npTexture' 선언을 참조하십시오.
+         d:\dev\engine\2d\sheep engine\sheep engine\node.h(18): note: 'Node' 선언을 참조하십시오.
+     1>d:\dev\engine\2d\sheep engine\sheep engine\sprite.cpp(23): error C2248: 'Node::m_nRect': private 멤버('Node' 클래스에서 선언)에 액세스할 수 없습니다.
+         d:\dev\engine\2d\sheep engine\sheep engine\node.h(32): note: 'Node::m_nRect' 선언을 참조하십시오.
+         d:\dev\engine\2d\sheep engine\sheep engine\node.h(18): note: 'Node' 선언을 참조하십시오.
+     1>d:\dev\engine\2d\sheep engine\sheep engine\sprite.cpp(24): error C2248: 'Node::m_ninfo': private 멤버('Node' 클래스에서 선언)에 액세스할 수 없습니다.
+         d:\dev\engine\2d\sheep engine\sheep engine\node.h(26): note: 'Node::m_ninfo' 선언을 참조하십시오.
+         d:\dev\engine\2d\sheep engine\sheep engine\node.h(18): note: 'Node' 선언을 참조하십시오.
+     1>d:\dev\engine\2d\sheep engine\sheep engine\sprite.cpp(25): error C2248: 'Node::m_nRect': private 멤버('Node' 클래스에서 선언)에 액세스할 수 없습니다.
+         d:\dev\engine\2d\sheep engine\sheep engine\node.h(32): note: 'Node::m_nRect' 선언을 참조하십시오.
+         d:\dev\engine\2d\sheep engine\sheep engine\node.h(18): note: 'Node' 선언을 참조하십시오.
+     1>d:\dev\engine\2d\sheep engine\sheep engine\sprite.cpp(26): error C2248: 'Node::m_ninfo': private 멤버('Node' 클래스에서 선언)에 액세스할 수 없습니다.
+         d:\dev\engine\2d\sheep engine\sheep engine\node.h(26): note: 'Node::m_ninfo' 선언을 참조하십시오.
+         d:\dev\engine\2d\sheep engine\sheep engine\node.h(18): note: 'Node' 선언을 참조하십시오.
+     1>d:\dev\engine\2d\sheep engine\sheep engine\sprite.cpp(39): error C2248: 'Node::m_nVisible': private 멤버('Node' 클래스에서 선언)에 액세스할 수 없습니다.
+         d:\dev\engine\2d\sheep engine\sheep engine\node.h(37): note: 'Node::m_nVisible' 선언을 참조하십시오.
+         d:\dev\engine\2d\sheep engine\sheep engine\node.h(18): note: 'Node' 선언을 참조하십시오.
+     1>d:\dev\engine\2d\sheep engine\sheep engine\sprite.cpp(44): error C2248: 'Node::m_npTexture': private 멤버('Node' 클래스에서 선언)에 액세스할 수 없습니다.
+         d:\dev\engine\2d\sheep engine\sheep engine\node.h(24): note: 'Node::m_npTexture' 선언을 참조하십시오.
+         d:\dev\engine\2d\sheep engine\sheep engine\node.h(18): note: 'Node' 선언을 참조하십시오.
+     1>d:\dev\engine\2d\sheep engine\sheep engine\sprite.cpp(44): error C2248: 'Node::m_nRect': private 멤버('Node' 클래스에서 선언)에 액세스할 수 없습니다.
+         d:\dev\engine\2d\sheep engine\sheep engine\node.h(32): note: 'Node::m_nRect' 선언을 참조하십시오.
+         d:\dev\engine\2d\sheep engine\sheep engine\node.h(18): note: 'Node' 선언을 참조하십시오.
+     1>d:\dev\engine\2d\sheep engine\sheep engine\sprite.cpp(44): error C2248: 'Node::m_nColor': private 멤버('Node' 클래스에서 선언)에 액세스할 수 없습니다.
+         d:\dev\engine\2d\sheep engine\sheep engine\node.h(31): note: 'Node::m_nColor' 선언을 참조하십시오.
+         d:\dev\engine\2d\sheep engine\sheep engine\node.h(18): note: 'Node' 선언을 참조하십시오.
+         SceneRender.cpp
+     1>d:\dev\engine\2d\sheep engine\sheep engine\node.h(45): warning C4244: '=': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>d:\dev\engine\2d\sheep engine\sheep engine\node.h(47): warning C4244: '=': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>d:\dev\engine\2d\sheep engine\sheep engine\node.h(51): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>d:\dev\engine\2d\sheep engine\sheep engine\node.h(69): warning C4244: 'return': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>d:\dev\engine\2d\sheep engine\sheep engine\node.h(70): warning C4244: 'return': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+         Scene.cpp
+     1>d:\dev\engine\2d\sheep engine\sheep engine\node.h(45): warning C4244: '=': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>d:\dev\engine\2d\sheep engine\sheep engine\node.h(47): warning C4244: '=': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>d:\dev\engine\2d\sheep engine\sheep engine\node.h(51): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>d:\dev\engine\2d\sheep engine\sheep engine\node.h(69): warning C4244: 'return': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>d:\dev\engine\2d\sheep engine\sheep engine\node.h(70): warning C4244: 'return': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+         Node.cpp
+     1>d:\dev\engine\2d\sheep engine\sheep engine\node.h(45): warning C4244: '=': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>d:\dev\engine\2d\sheep engine\sheep engine\node.h(47): warning C4244: '=': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>d:\dev\engine\2d\sheep engine\sheep engine\node.h(51): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>d:\dev\engine\2d\sheep engine\sheep engine\node.h(69): warning C4244: 'return': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>d:\dev\engine\2d\sheep engine\sheep engine\node.h(70): warning C4244: 'return': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+         HelloWorld.cpp
+     1>d:\dev\engine\2d\sheep engine\sheep engine\node.h(45): warning C4244: '=': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>d:\dev\engine\2d\sheep engine\sheep engine\node.h(47): warning C4244: '=': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>d:\dev\engine\2d\sheep engine\sheep engine\node.h(51): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>d:\dev\engine\2d\sheep engine\sheep engine\node.h(69): warning C4244: 'return': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>d:\dev\engine\2d\sheep engine\sheep engine\node.h(70): warning C4244: 'return': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+         Game.cpp
+     1>d:\dev\engine\2d\sheep engine\sheep engine\node.h(45): warning C4244: '=': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>d:\dev\engine\2d\sheep engine\sheep engine\node.h(47): warning C4244: '=': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>d:\dev\engine\2d\sheep engine\sheep engine\node.h(51): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>d:\dev\engine\2d\sheep engine\sheep engine\node.h(69): warning C4244: 'return': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>d:\dev\engine\2d\sheep engine\sheep engine\node.h(70): warning C4244: 'return': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+         코드를 생성하고 있습니다...
+     1>"D:\Dev\ENGINE\2D\SHEEP ENGINE\SHEEP ENGINE\SHEEP ENGINE.vcxproj" 프로젝트를 빌드했습니다(Build 대상). - 실패
+
+빌드하지 못했습니다.
+
+경과 시간: 00:00:05.54
